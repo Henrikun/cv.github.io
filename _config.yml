@@ -1,17 +1,66 @@
-name: Robins Patel
-author: Ravi (Robins) Patel
-markdown: redcarpet
-pygments: true
-description: I'm an entrepreneur from Boston where I have been working on Pitch for Windows. In May, I graduated from Boston University's College of Engineering.
-greeting_title: Hi, I'm Robins.
-greeting_text: I'm an engineer and entrepreneur from Boston. This is my homepage.
-github: http://www.github.com/arnp
-twitter: http://www.twitter.com/ravipatel
-facebook: http://www.facebook.com/rnpatel7791
-linkedin: http://www.linkedin.com/in/robinspatel
-email: hi@robinspatel.com
-location: 42°2'16"N   70°12'47"W
-disqus: rnpatel
+# Site
+repository: sproogen/resume-theme
+# favicon: images/favicon.ico
 
-##Make sure to edit the above fields, especially for disqus. 
+# Personal info
+name: Henrique C. Costa
+title: Mestre em Economia | Cientista de Dados - R
+email: henrique@outlook.sg
+#website: https://datametricks.github.io/hcostax.github.io/
 
+# Social links
+twitter_username: hcostax
+# github_username:  sproogen
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: hcostax
+linkedin_username: henriqccosta
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+about_title: Sobre Mim
+about_profile_image: images/foto.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Olá, meu nome é Henrique e sou Mestre em Economia pela Faculdade de Economia - UFMT e Economista registrado pelo Corecon-MT: 2088. 
+  Apaixonado pela Ciência Econômica, jovem e com muita sede de conhecimento. Tenho "preferencia revelada" por microeconomia e microeconometria.
+  Curioso, entusiasta e estudante de Ciência de Dados, gosto particularmente da linguagem de programação em R e sou usuário de RMarkDown/LaTeX.
+  
+  Tenho um projeto incubado, o Análise Real (Research), atualmente residente em Cuiabá - MT, Brasil.
+  Se quiser entrar em contato, sinta-se à vontade para dizer olá por meio de qualquer um das redes sociais acima. 
+  
+  
+  Eu sou mais experiente em: <mark>Fazer café</mark>  e  <mark>Comer pizza</mark>
+
+# Projects Section
+projects_title: Projetos
+
+# Experience Section
+experience_title: Experiência
+
+# Education Section
+educaton_title: Educação
+
+# More Section
+more_title: Um pouco mais sobre mim
+more_content: | # this will include new lines to allow paragraphs
+ Juntamente com meus interesses em Economia e Ciência de Dados, alguns de meus outros interesses e hobbies são:
+   - Ler Mangás
+   - [Jogar DotA 2](https://steamcommunity.com/id/quonli)
+   - Música classica (A. Vivaldi)
+   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
